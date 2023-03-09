@@ -18,7 +18,7 @@ $(() => {
 	// Установка ширины стандартного скроллбара
 	$(':root').css('--scroll_width', widthScroll() + 'px')
 
-	
+
 
 	// Моб. версия
 	fiestResize = false
@@ -66,6 +66,20 @@ $(window).resize(() => {
 	}
 })
 
+
+
+// Скрол
+$(".scroll").on("click", function (e) {
+	e.preventDefault();
+	let id = $(this).attr("href");
+
+	$("html, body").animate({
+		scrollTop: $(id).offset().top + "px"
+	}, {
+		duration: 1500,
+		easing: "swing"
+	});
+});
 
 
 // Вспомогательные функции
