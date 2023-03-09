@@ -1,0 +1,42 @@
+@font-face {
+	font-family: 'FreeSet';
+	src: url('../fonts/freeset_bold_cyrillic.eot');
+	src: url('../fonts/freeset_bold_cyrillic.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/freeset_bold_cyrillic.woff2') format('woff2'),
+		url('../fonts/freeset_bold_cyrillic.woff') format('woff'), 
+        url('../fonts/freeset_bold_cyrillic.ttf') format('truetype');
+    /* font-weight: 700;
+    font-style: normal; */
+}
+
+
+.eco .first-section .cont {
+    max-width: 1269px;
+}
+.eco .first-section {
+    background: url(../images/first-section_bg2.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: -60px center;
+    padding-top: 91px;
+}
+.eco .first-section .reklama {
+    font-family: "Roboto";
+    font-size: 29px;
+    line-height: 1.2;
+    font-weight: 400;
+    color: #ffffff;   
+    margin-right: 29px;
+    margin-top: 29px;
+}
+.eco .first-section_title {
+    font-family: 'FreeSet';
+    font-size: 96px;
+    line-height: 96px;
+    font-weight: 700;
+    color: #ffffff; 
+    text-transform: lowercase;
+}
+.eco .first-section_title span {
+    text-transform: uppercase;
+}
