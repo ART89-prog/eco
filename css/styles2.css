@@ -297,4 +297,34 @@
 
 
 
+.eco .test-bottom {
+    background: #d9dbff;
+    padding-top: 109px;
+    padding-bottom: 25px;
+}
+.eco .test-bottom .test_text-box {
+    margin-bottom: 74px;
+    margin-top: 0;
+}
+.foot-note {
+    font-family: "Roboto";
+    font-size: 48px;
+    line-height: 1.2;
+    font-weight: 400;
+    color: #5256a9;
+    text-transform: uppercase;
+    text-align: center;
+}
 
+
+
+footer {
+    padding: 25px 0 132px;
+    background: #d9dbff;
+}
+.footer_text {
+    font-size: 18px;
+    line-height: 1.2;
+    font-weight: 400;
+    color: #5256a9;
+}
