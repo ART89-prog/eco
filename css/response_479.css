@@ -103,41 +103,49 @@
 
 
    .header_logo a:nth-child(1) img {
-        width: 110px;
+        width: 85px;
     }
     .header_logo a:nth-child(2) img {
-        width: 170px;
+        width: 164px;
     }
     .first-screen_reklama {
-        font-size: 18px;
+        font-size: 12px;
     }
     .first-screen_title {
-        font-size: 49px;
+        font-size: 44px;
         line-height: 1.2;
         margin-top: 25px;
     }
     .question_text {
-        font-size: 22px;
+        font-size: 15px;
     }
     .question_text-box span {
-        font-size: 32px;
+        font-size: 28px;
     }
     .question_text-box {
         padding: 40px 20px 40px;
     }
     .expert_photo-mob {
-        width: 100%;
-        height: auto;
+        width: 202px;
+        height: 232px;
     }
     .expert_name {
-        font-size: 38px;
+        font-size: 28px;
+        margin-top: 11px;
+        margin-bottom: 20px;
+    }
+    .expert_post {
+        font-size: 21px;
+    }
+    .expert_work {
+        font-size: 21px;
     }
     .expert_doctor, 
     .expert_experience {
-        font-size: 28px;
+        font-size: 18px;
     }
     .describe_list li a {
-        font-size: 22px;
+        font-size: 18px;
         padding: 12px 15px;
         margin-bottom: 12px;
     }
@@ -149,11 +157,14 @@
         margin-top: 0px;
     }
     .describe_item h2 {
-        font-size: 24px;
+        font-size: 23px;
         margin-bottom: 17px;
     }
     .describe_item p {
-        font-size: 20px;
+        margin-bottom: 20px;
+    }
+    .describe_item p {
+        font-size: 18px;
     }
     .describe_item {
         padding: 15px 20px 60px;
@@ -169,6 +180,13 @@
     .question_links a,
     .expert .link {
         font-size: 22px;
+    }
+
+
+
+
+    .first-screen {
+        height: 420px;
     }
  
 

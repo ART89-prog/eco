@@ -206,6 +206,11 @@
     .describe_item .image10.fl {
         margin-right: auto;
     }
+    .describe_item .image5.fr,
+    .describe_item .image4.fl,
+    .describe_item .image9.fr {
+        margin-top: 0;
+    }
     .describe_item img.fr {
         float: none;
     }

@@ -132,12 +132,12 @@
         margin-bottom: 25px;
     }
     .question_text-title {
-        font-size: 26px;
-        line-height: 60px;
-        height: 60px;
+        font-size: 24px;
+        line-height: 47px;
+        height: 47px;
         max-width: 656px;
-        border-radius: 54px;
-        margin: 30px auto 0;
+        border-radius: 24px;
+        margin: 25px auto 0;
     }
     .question_text-box {
         margin-top: 40px;
@@ -145,56 +145,56 @@
         border-radius: 20px;
     }
     .question_text-box span {
-        font-size: 45px;
+        font-size: 35px;
     }
     .question_links a {
-        font-size: 26px;
-        line-height: 60px;
-        height: 60px;
+        font-size: 24px;
+        line-height: 47px;
+        height: 47px;
         max-width: 656px;
-        border-radius: 54px;
-        margin: 30px auto 0;
+        border-radius: 24px;
+        margin: 25px auto 0;
     }
     .expert_post {
-        font-size: 40px;
+        font-size: 32px;
     }
     .expert_work {
-        font-size: 28px;
-        margin-bottom: 25px;
+        font-size: 22px;
+        margin-bottom: 16px;
     }
     .expert_photo-mob {
         width: 390px;
         height: 447px;
     }
     .expert_name {
-        font-size: 42px;
+        font-size: 34px;
     }
     .expert_doctor,
     .expert_experience {
-        font-size: 32px;
+        font-size: 25px;
     }
     .expert .link {
-        font-size: 26px;
-        line-height: 60px;
-        height: 60px;
+        font-size: 24px;
+        line-height: 47px;
+        height: 47px;
         max-width: 656px;
-        border-radius: 54px;
-        margin: 30px auto 0;
+        border-radius: 24px;
+        margin: 25px auto 0;
     }
     .expert {
         padding: 40px 0 40px;
     }
     .describe_list li a {
-        font-size: 26px;
-        padding: 15px 20px;
-        margin-bottom: 18px;
+        font-size: 22px;
+        padding: 16px 19px;
+        margin-bottom: 17px;
     }
     .describe_item {
         padding: 30px 30px 60px;
         margin-bottom: 30px;
     }
     .describe_item h2 {
-        font-size: 26px;
+        font-size: 24px;
         margin-bottom: 25px;
     }
     .describe_item h2:before {
@@ -226,13 +226,31 @@
         margin-bottom: 32px;
     }
     .foot-note {
-        font-size: 35px;
+        font-size: 30px;
     }
     .question-bottom .question_text-box {
         margin-bottom: 40px;
     }
     .question {
         padding: 28px 0 28px;
+    }
+
+    .first-screen {
+        background: url(../images/first-section_bg2-mob.png), #5256a9;
+        background-repeat: no-repeat;
+        background-position: center 0;
+        background-size: cover;
+        padding-top: 32px;
+        height: 505px;
+    }
+    .question_text {
+        font-size: 18px;
+    }
+    .question_text p {
+        margin-bottom: 20px;
+    }
+    footer {
+        padding: 25px 0 40px;
     }
     
     
