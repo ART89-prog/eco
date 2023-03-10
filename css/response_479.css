@@ -174,7 +174,7 @@
         font-size: 26px;
     }
     .footer_text {
-        font-size: 16px;
+        font-size: 13px;
     }
     .question_text-title,
     .question_links a,
@@ -182,11 +182,11 @@
         font-size: 22px;
     }
 
-
-
-
     .first-screen {
         height: 420px;
+    }
+    footer {
+        padding: 10px 0 30px;
     }
  
 
