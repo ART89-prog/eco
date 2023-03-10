@@ -151,38 +151,6 @@
         display: flex;
         flex-direction: column;
     }
-    /* .image-mob {
-        display: block;
-        margin: 0 auto 52px;
-    }
-    .image1,
-    .image2,
-    .image3,
-    .image4,
-    .image5,
-    .image6,
-    .image7,
-    .image8,
-    .image9,
-    .image10 {
-        display: none;
-    } */
-    /* .describe_item .image1,
-    .describe_item .image2,
-    .describe_item .image3,
-    .describe_item .image4,
-    .describe_item .image5,
-    .describe_item .image6,
-    .describe_item .image7,
-    .describe_item .image8,
-    .describe_item .image9,
-    .describe_item .image10 {
-        display: flex;
-        flex-direction: column;
-        max-width: 100%;
-        width: max-content;
-        order: -1;
-    }  */
     .describe_item img.fr,
     .describe_item img.fl {
         max-width: 100%;
