@@ -84,11 +84,11 @@
 
 @font-face {
     font-family: 'FreeSet';
-    src: url('../fonts/freeset-bold-cyrillic.eot');
-    src: local('FreeSet'),
-        url('../fonts/freeset-bold-cyrillic.woff2') format('woff2'),
-        url('../fonts/freeset-bold-cyrillic.woff') format('woff'),
-        url('../fonts/freeset-bold-cyrillic.ttf') format('truetype');
+    src: url('../fonts/FreeSetBoldC.eot');
+    src: local('FreeSetBoldC'),
+        url('../fonts/FreeSetBoldC.woff2') format('woff2'),
+        url('../fonts/FreeSetBoldC.woff') format('woff'),
+        url('../fonts/FreeSetBoldC.ttf') format('truetype');
     font-weight: 700;
     font-style: normal;
 }

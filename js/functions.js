@@ -21,12 +21,11 @@ $(() => {
 
 
 	// Моб. версия
-	fiestResize = false
+	fakeResize = false
+	fakeResize2 = true
 
-	if ($(window).width() < 360) {
-		$('meta[name=viewport]').attr('content', 'width=360, user-scalable=no')
-
-		fiestResize = true
+	if (document.body.clientWidth < 375) {
+	document.getElementsByTagName('meta')['viewport'].content = 'width=375, user-scalable=no'
 	}
 
 
@@ -52,34 +51,6 @@ $(() => {
 	}
 })
 
-
-
-$(window).resize(() => {
-	// Моб. версия
-	if (!fiestResize) {
-		$('meta[name=viewport]').attr('content', 'width=device-width, initial-scale=1, maximum-scale=1')
-		if ($(window).width() < 360) $('meta[name=viewport]').attr('content', 'width=360, user-scalable=no')
-
-		fiestResize = true
-	} else {
-		fiestResize = false
-	}
-})
-
-
-
-// Скрол
-$(".scroll").on("click", function (e) {
-	e.preventDefault();
-	let id = $(this).attr("href");
-
-	$("html, body").animate({
-		scrollTop: $(id).offset().top + "px"
-	}, {
-		duration: 1500,
-		easing: "swing"
-	});
-});
 
 
 // Вспомогательные функции

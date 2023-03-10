@@ -4,24 +4,22 @@
 .eco .cont {
     max-width: 1040px;
 }
-
-
 .eco header {
     padding-top: 29px;
     margin-bottom: 24px;
     background: #fff;
 }
-.eco .first-section .cont {
+
+.first-screen .cont {
     max-width: 1269px;
 }
-.eco .first-section {
+.first-screen {
     background: url(../images/first-section_bg2.png), #5256a9;
     background-repeat: no-repeat;
-    /* background-size: cover; */
     background-position: center 0;
     padding-top: 32px;
 }
-.first-section_reklama {
+.first-screen_reklama {
     font-family: "Roboto";
     font-size: 26px;
     line-height: 1.2;
@@ -29,47 +27,46 @@
     color: #d8dafc;
     text-align: center;
 }
-.eco .first-section_title {
+.first-screen_title {
     font-family: 'FreeSet';
-    font-size: 100px;
+    font-size: 96px;
     line-height: 1.2;
     font-weight: 700;
     color: #ffffff; 
     text-transform: lowercase;
-    margin-top: 18px;
-    margin-bottom: 54px;
+    margin-top: 15px;
+    margin-bottom: 58px;
+    text-align: center;
 }
-.eco .first-section_title span {
+.first-screen_title span {
     text-transform: uppercase;
 }
-.eco .first-section_img {
+.first-screen_img {
     margin-left: 40px;
 }
 
-
-
-.eco .test {
+.question {
     background: #5256a9;
     padding: 29px 0 145px;
 }
-.eco .test_text {
-    font-family: var(--font-family);
+.question_text {
     font-size: 26px;
     line-height: 1.2;
     color: #ffffff;
+    font-weight: 600;
 }
-.eco .test_text p {
+.question_text p {
     margin-bottom: 30px;
 }
-.eco .test_text a {
+.question_text a {
     color: #97f2fe;
     text-decoration: none;
     white-space: inherit;
 }
-.eco .test_text p:last-child {
+.question_text p:last-child {
     margin-bottom: 0px;
 }
-.eco .test_text-title {
+.question_text-title {
     margin: 59px auto 0;
     font-size: 36px;
     line-height: 76px;
@@ -82,20 +79,20 @@
     border-radius: 38px;
     text-align: center;
 }
-.test_text-box {
+.question_text-box {
     margin-top: 95px;
     padding: 58px 70px 81px;
     background: #6569c3;
     border-radius: 80px;
     text-align: center;
 }
-.test_text-box span {
+.question_text-box span {
     font-size: 54px;
     line-height: 1.2;
     font-weight: 700;
     color: #ffffff;  
 }
-.test_links a {    
+.question_links a {    
     margin: 47px auto 0;
     font-size: 36px;
     line-height: 76px;
@@ -186,6 +183,9 @@
     width: 430px;
     height: 493px;
 }
+.expert_photo-mob {
+    display: none;
+}
 
 
 
@@ -213,7 +213,7 @@
     padding: 32px 68px 30px 42px;
     font-size: 37px;
     line-height: 1.2;
-    font-weight: 700;
+    font-weight: 600;
     color: #393d97;
     margin-bottom: 32px;
     text-decoration: none;
@@ -222,7 +222,9 @@
 .describe_list li:last-child {
     margin-bottom: 0;
 }
-
+.image-mob {
+    display: none;
+}
 
 
 
@@ -233,7 +235,7 @@
 .describe_item {
     background: #ffffff;
     border-radius: 80px;
-    padding: 66px 101px 110px;
+    padding: 66px 101px 60px;
     margin-bottom: 72px;  
     position: relative; 
 }
@@ -242,11 +244,11 @@
 }
 .describe_item h2 {
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     font-family: var(--font-family);
     font-size: 37px;
-    line-height: 1.2;
-    font-weight: 700;
+    line-height: 1.28;
+    font-weight: 600;
     color: #000000; 
     position: relative;
     margin-bottom: 58px;
@@ -267,6 +269,7 @@
     align-items: center;
     justify-content: center;
     margin-right: 19px;
+    margin-top: -8px;
     flex-shrink: 0;
 }
 .describe_item img.fr {   
@@ -301,7 +304,25 @@
     margin-left: 50px;
     margin-top: 0px;
 }
-
+.describe_item .image8.fl {
+    margin-right: 60px;
+    margin-top: 0px;
+}
+.describe_item .image9.fr {
+    margin-left: 18px;
+    margin-top: -55px;
+}
+.describe_item .image10.fl {
+    margin-right: 47px;
+    margin-top: 15px;
+}
+.describe_item-warning {
+    font-weight: 600;
+    color: #6569c3;
+    font-size: 26px;
+    line-height: 1.2;
+    margin-bottom: 37px;
+}
 .describe_item p {
     font-size: 26px;
     line-height: 1.2;
@@ -309,13 +330,13 @@
     color: #000000; 
     margin-bottom: 50px;
 }
-.describe_item p + p {
+.describe_item p:last-child {
     margin-bottom: 0px;
 }
 .describe_item p a {
     color: #f01818;
     text-decoration: none;
-    font-weight: 600;
+    font-weight: 600;    
 }
 .describe_button {
     position: absolute;
@@ -330,13 +351,13 @@
 
 
 
-.eco .test-bottom {
+.question-bottom {
     background: #d9dbff;
     padding-top: 109px;
-    padding-bottom: 25px;
+    padding-bottom: 18px;
 }
-.eco .test-bottom .test_text-box {
-    margin-bottom: 74px;
+.question-bottom .question_text-box {
+    margin-bottom: 63px;
     margin-top: 0;
 }
 .foot-note {
