@@ -1,6 +1,6 @@
 @media print, (max-width: 767px) {
 
-    :root {
+    /* :root {
         --font_size: 20px;
         --font_size_title: 24px;
     }
@@ -105,7 +105,7 @@
     }
     .text-block {
         margin-bottom: 30px;
-    }
+    } */
 
 
     .cont {

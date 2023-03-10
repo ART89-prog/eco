@@ -1,6 +1,6 @@
 @media (max-width: 479px) {
 
-    :root {
+    /* :root {
         --font_size: 18px;
         --font_size_title: 22px;
     }
@@ -99,13 +99,13 @@
         background: url(../images/first_section_bg_mob.jpg);
         background-position: center 80%;
         background-size: cover;
-    }
+    } */
 
 
-    .eco .header_logo a:nth-child(1) img {
+   .header_logo a:nth-child(1) img {
         width: 110px;
     }
-    .eco .header_logo a:nth-child(2) img {
+    .header_logo a:nth-child(2) img {
         width: 170px;
     }
     .first-screen_reklama {
@@ -162,7 +162,7 @@
     .foot-note {
         font-size: 26px;
     }
-    .eco .footer_text {
+    .footer_text {
         font-size: 16px;
     }
     .question_text-title,
