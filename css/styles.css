@@ -319,7 +319,7 @@ header {
 .first-screen {
     background: url(../images/first-section_bg2.png), #5256a9;
     background-repeat: no-repeat;
-    background-position: center 0;
+    background-position: center;
     padding-top: 32px;
     height: 703px;
 }
