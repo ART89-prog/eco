@@ -23,7 +23,8 @@
         width: auto;
     }
     header {
-        margin-bottom: 14px;
+        padding-top: 24px;
+        margin-bottom: 24px;
     }
     .first-screen {
         padding-top: 17px;
