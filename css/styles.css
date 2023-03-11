@@ -320,7 +320,6 @@ header {
     background: url(../images/first-section_bg2.png), #5256a9;
     background-repeat: no-repeat;
     background-position: center 0;
-    background-size: cover;
     padding-top: 32px;
     height: 703px;
 }
@@ -392,6 +391,8 @@ header {
     background-color: #39b97c;
     border-radius: 38px;
     text-align: center;
+    display: block;
+    text-decoration: none;
 }
 
 .question_text-box {
